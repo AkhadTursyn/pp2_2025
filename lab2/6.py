@@ -1,0 +1,9 @@
+a = 16
+b = 4
+print('a + b = ', a + b)
+print('a - b = ', a - b)
+print('a * b = ', a * b)
+print('a / b = ', a / b)
+print('a ** b = ', a ** b)
+print('a // b = ', a // b)         #бүтінін қалдырып төменге жуықтайды
+print('a % b = ', a % b)

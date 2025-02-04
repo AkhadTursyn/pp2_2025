@@ -5,9 +5,9 @@ class Shape:
 class Square(Shape):
     def __init__(self, length):
         self.length = length
+
     def area(self):
         return self.length ** 2
 
-print(Shape().area())       
-
-print(Square(10).area()) 
+sq = Square(5)
+print(sq.area())
